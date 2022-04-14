@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-left">
+        <h2 class="category">sneakers</h2>
+        <ul>
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <img src="../images/icon-cart.svg" alt="icon-cart">
+        <img src="../images/image-avatar.png" alt="image-avatar">
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <img src="../images/image-product-1.jpg" alt="image-product-1">
+      <div class="thumbnails">
+        <img class="selected-image" src="../images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail">
+        <img src="../images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail">
+        <img src="../images/image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail">
+        <img src="../images/image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail">
+      </div>
+    </section>
+    <section>
+      <h3>Sneaker Company</h3>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <h5>These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</h5>
+      <div class="pricing">
+        <h1>$125.00 <span class="discount">50%</span></h1>
+        <h4 class="previous-price">$250.00</h4>
+      </div>
+      <div class="cart-container">
+        <div class="amount-container">
+          <button class="btn-minus">-</button>
+          <p class="amount">0</p>
+          <button class="btn-plus">+</button>
+        </div>
+        <button class="btn-cart"><i><img src="../images/icon-cart.svg" alt="icon-cart"></i>Add to cart</button>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

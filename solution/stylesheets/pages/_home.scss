@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+main {
+    display: flex;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumbnails img {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.amount-container {
+    display: flex;
+}
